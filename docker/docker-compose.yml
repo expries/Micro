@@ -1,0 +1,13 @@
+services:
+  sensor-service-api:
+    build:
+      context: ../
+      dockerfile: ./source/SensorService/SensorService.Web/Dockerfile 
+    ports:
+      - 10000:80
+      - 10001:443
+  influxdb:
+    image: influxdb
+    ports:
+      - 8086:8086
+      

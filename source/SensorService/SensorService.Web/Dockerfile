@@ -4,8 +4,6 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-COPY ["source/SensorService/SensorService.Web/SensorService.Web.csproj", "source/SensorService/SensorService.Web/SensorService.Web.csproj"]
-
 COPY . .
 WORKDIR /source/SensorService/SensorService.Web
 RUN dotnet restore "./SensorService.Web.csproj"
