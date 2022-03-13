@@ -6,17 +6,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{82DFC5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F50A12F8-FE9F-445E-BBDC-BB4E97F3CA56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Web", "source\SensorService\SensorService.Web\SensorService.Web.csproj", "{E5EE2D1A-F20F-449C-BF02-C6CDE5AC1421}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Web", "source\RoomSensors\SensorService.Web\SensorService.Web.csproj", "{E5EE2D1A-F20F-449C-BF02-C6CDE5AC1421}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Contracts", "source\SensorService\SensorService.Contracts\SensorService.Contracts.csproj", "{B18F0F17-EDF5-4342-A6AB-B46027A2C6BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Contracts", "source\RoomSensors\SensorService.Contracts\SensorService.Contracts.csproj", "{B18F0F17-EDF5-4342-A6AB-B46027A2C6BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Services", "source\SensorService\SensorService.Services\SensorService.Services.csproj", "{4CEC8875-87DC-42F4-B611-16A96511D5AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Services", "source\RoomSensors\SensorService.Services\SensorService.Services.csproj", "{4CEC8875-87DC-42F4-B611-16A96511D5AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Entities", "source\SensorService\SensorService.Entities\SensorService.Entities.csproj", "{67A0447B-428B-40FA-BFCD-520ECC54BAFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Entities", "source\RoomSensors\SensorService.Entities\SensorService.Entities.csproj", "{67A0447B-428B-40FA-BFCD-520ECC54BAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.DataAccess", "source\SensorService\SensorService.DataAccess\SensorService.DataAccess.csproj", "{1678F897-7799-484F-A916-CF83428C7CDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.DataAccess", "source\RoomSensors\SensorService.DataAccess\SensorService.DataAccess.csproj", "{1678F897-7799-484F-A916-CF83428C7CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Services.Tests", "tests\SensorService\SensorService.Services.Tests\SensorService.Services.Tests.csproj", "{77941A8E-6BB5-4ADD-A25C-81234ADD9FAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorService.Services.Tests", "tests\RoomSensors\SensorService.Services.Tests\SensorService.Services.Tests.csproj", "{77941A8E-6BB5-4ADD-A25C-81234ADD9FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublicTransport", "PublicTransport", "{FE272D09-B24F-4212-B744-87F35DD37143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{1D05DAD8-C13E-44E8-96A5-87BD338D5E55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C680C072-25C6-4B47-9D4F-318D2087AAA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicTransportService.Web", "source\PublicTransport\PublicTransportService.Web\PublicTransportService.Web.csproj", "{02D24170-220C-434F-ACBE-5D3FB022BB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicTransportService.Contracts", "source\PublicTransport\PublicTransportService.Contracts\PublicTransportService.Contracts.csproj", "{ADFD08AE-2417-4165-9CA4-6BD4730B63B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +58,14 @@ Global
 		{77941A8E-6BB5-4ADD-A25C-81234ADD9FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77941A8E-6BB5-4ADD-A25C-81234ADD9FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77941A8E-6BB5-4ADD-A25C-81234ADD9FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D24170-220C-434F-ACBE-5D3FB022BB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D24170-220C-434F-ACBE-5D3FB022BB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D24170-220C-434F-ACBE-5D3FB022BB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D24170-220C-434F-ACBE-5D3FB022BB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFD08AE-2417-4165-9CA4-6BD4730B63B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFD08AE-2417-4165-9CA4-6BD4730B63B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFD08AE-2417-4165-9CA4-6BD4730B63B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFD08AE-2417-4165-9CA4-6BD4730B63B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F50A12F8-FE9F-445E-BBDC-BB4E97F3CA56} = {3E0B42F4-9F44-46C0-9682-10D73B1614A9}
@@ -58,5 +76,9 @@ Global
 		{67A0447B-428B-40FA-BFCD-520ECC54BAFE} = {82DFC509-1AFD-47EC-AAA4-FD54DFF2DDC1}
 		{4CEC8875-87DC-42F4-B611-16A96511D5AD} = {82DFC509-1AFD-47EC-AAA4-FD54DFF2DDC1}
 		{E5EE2D1A-F20F-449C-BF02-C6CDE5AC1421} = {82DFC509-1AFD-47EC-AAA4-FD54DFF2DDC1}
+		{1D05DAD8-C13E-44E8-96A5-87BD338D5E55} = {FE272D09-B24F-4212-B744-87F35DD37143}
+		{C680C072-25C6-4B47-9D4F-318D2087AAA7} = {FE272D09-B24F-4212-B744-87F35DD37143}
+		{02D24170-220C-434F-ACBE-5D3FB022BB24} = {1D05DAD8-C13E-44E8-96A5-87BD338D5E55}
+		{ADFD08AE-2417-4165-9CA4-6BD4730B63B8} = {1D05DAD8-C13E-44E8-96A5-87BD338D5E55}
 	EndGlobalSection
 EndGlobal
